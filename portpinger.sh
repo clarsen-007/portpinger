@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Script by clarsen-007 @ https://github.com/clarsen-007
+
+
 if [ -z "$1" ]
   then
     echo -e " \n "
