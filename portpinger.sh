@@ -27,6 +27,7 @@ if [ "$1" == "-h" ]
      echo -e " \n "
    else
 
+echo -e " Pinging $1 on PORT $2 TYPE $3 - COUNTS $4... \n"
 
 for i in $(eval echo "{1..$4}")
    do
