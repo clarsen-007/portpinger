@@ -1,3 +1,6 @@
+<HTML>
+  <BODY>
+    <pre>
 # portpinger
 IS a IPv4 port Open or Closed
 
@@ -18,3 +21,10 @@ Count 2 Port 80 is Open Delay time 0.037 ms
 $ ./portpinger.sh www.google.com 22 tcp 2
 Count 1 Port 22 is Closed Delay time 31.613 ms
 Count 2 Port 22 is Closed Delay time 31.751 ms
+
+
+Please use freely and modify as required...
+
+    </pre>
+  </BODY>
+</HTML>
