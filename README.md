@@ -25,6 +25,5 @@ Count 2 Port 22 is Closed Delay time 31.751 ms
 
 Please use freely and modify as required...
 
-    </pre>
   </BODY>
 </HTML>
