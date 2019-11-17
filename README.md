@@ -22,6 +22,10 @@ $ ./portpinger.sh www.google.com 22 tcp 2
 Count 1 Port 22 is Closed Delay time 31.613 ms
 Count 2 Port 22 is Closed Delay time 31.751 ms
 
+$ ./portpinger.sh 127.0.0.1 22 tcp 2
+Count 1 Port 22 is Closed Delay time 0.005 ms
+Count 2 Port 22 is Closed Delay time 0.005 ms
+
 
 Please use freely and modify as required...
 
