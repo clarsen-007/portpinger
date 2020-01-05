@@ -1,6 +1,8 @@
 #!/bin/bash
 
 # Script by clarsen-007 @ https://github.com/clarsen-007
+# Version: 00.01.00
+# Purpose of script: "Pings", "Tests" for open ports...
 
 
 if [ -z "$1" ]
