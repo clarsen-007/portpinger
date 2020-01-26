@@ -2,7 +2,7 @@
   <BODY>
     <pre>
 # portpinger
-Is a IPv4 port Open or Closed
+Is a IPv4 port Open or Closed?
 
 This is a Linux BASH script.
 
@@ -27,7 +27,7 @@ Count 1 Port 22 is Closed Delay time 0.005 ms
 Count 2 Port 22 is Closed Delay time 0.005 ms
 
 
-Please use freely and modify as required...
+Please use freely and modify as required, at your own risk...
 
   </BODY>
 </HTML>
