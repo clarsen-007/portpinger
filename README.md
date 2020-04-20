@@ -8,24 +8,12 @@ This is a Linux BASH script.
 
 Example:
 
-./portpinger.sh www.google.com 80 tcp 2
+Currently only works with TCP connections.
+Old version can ping UDP ports.
 
-"Pings" URL www.google.com PORT 80 TYPE tcp NUMBER OFF PINGS 2...
+./portpinger.py -s www.google.com -p 80
 
-Example output:
-
-$ ./portpinger.sh www.google.com 80 tcp 2
-Count 1 Port 80 is Open Delay time 0.146 ms
-Count 2 Port 80 is Open Delay time 0.037 ms
-
-$ ./portpinger.sh www.google.com 22 tcp 2
-Count 1 Port 22 is Closed Delay time 31.613 ms
-Count 2 Port 22 is Closed Delay time 31.751 ms
-
-$ ./portpinger.sh 127.0.0.1 22 tcp 2
-Count 1 Port 22 is Closed Delay time 0.005 ms
-Count 2 Port 22 is Closed Delay time 0.005 ms
-
+If you get a reply, port is open, else script says port is closed.
 
 Please use freely and modify as required, at your own risk...
 
