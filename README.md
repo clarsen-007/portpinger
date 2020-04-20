@@ -2,6 +2,9 @@
   <BODY>
     <pre>
 # portpinger
+
+Version 00.02.00.00
+
 Is a IPv4 port Open or Closed?
 
 This is a Linux BASH script.
