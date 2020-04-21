@@ -3,24 +3,15 @@ Is a IPv4 port Open or Closed?
 
 This is a Linux BASH script.
 
-Example:
+Usage: portpinger.sh [ -s URL or IP address ] [ -p port ] 
+                     [ -t protocol ( default TCP ) ] UDP is stateless and unreliable for ping requests 
+                     [ -c count, number of pings ( default is 5 ) ] 
+                     [ -d set timeout for ping TTL in seconds ( default is 5 seconds ) ] 
+                     [ -h display help text and exit ] 
+                     [ -v display version text and exit ] 
 
-./portpinger.sh www.google.com 80 tcp 2
+           Example... 
 
-"Pings" URL www.google.com PORT 80 TYPE tcp NUMBER OFF PINGS 2...
-
-Example output:
-
-$ ./portpinger.sh www.google.com 80 tcp 2
-Count 1 Port 80 is Open Delay time 0.146 ms
-Count 2 Port 80 is Open Delay time 0.037 ms
-
-$ ./portpinger.sh www.google.com 22 tcp 2
-Count 1 Port 22 is Closed Delay time 31.613 ms
-Count 2 Port 22 is Closed Delay time 31.751 ms
-
-$ ./portpinger.sh 127.0.0.1 22 tcp 2
-Count 1 Port 22 is Closed Delay time 0.005 ms
-Count 2 Port 22 is Closed Delay time 0.005 ms
+               portpinger.sh -s www.google.com -p 80 -t tcp -c 2
 
 Please use freely and modify as required, at your own risk...
