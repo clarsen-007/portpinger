@@ -1,0 +1,12 @@
+Version info.
+
+00.02.00.01
+***********
+- Cleaned up script.
+- Added some error handling.
+- Added flags.
+- Added more help info.
+
+00.01.00.00
+***********
+- Initial release to test script.
