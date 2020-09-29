@@ -1,4 +1,7 @@
-# portpinger
+<HTML>
+  <BODY>
+    <PRE>
+      # portpinger
 Is a IPv4 port Open or Closed?
 
 This is a Linux BASH script.
@@ -15,3 +18,6 @@ Usage: portpinger.sh [ -s URL or IP address ] [ -p port ]
                portpinger.sh -s www.google.com -p 80 -t tcp -c 2
 
 Please use freely and modify as required, at your own risk...
+    </PRE>
+  </BODY>
+</HTML>
